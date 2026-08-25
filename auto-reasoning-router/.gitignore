@@ -1,0 +1,5 @@
+node_modules/
+dist/
+benchmark-results/**
+benchmarks/**/fixtures/
+*.log

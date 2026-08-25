@@ -1,0 +1,8 @@
+- insert:
+    - id: auto-reasoning-router
+      name: file:///E:/claude-work/auto-reasoning-router/dist/plugin.js
+      config:
+        enabled: true
+        mode: auto
+        logging:
+          level: normal
