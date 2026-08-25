@@ -1,0 +1,22 @@
+{
+  "name": "dsh-user-history-rail",
+  "description": "ChatGPT-style right-edge history fence: a persistent column of ticks, one per user input, with hover preview and click-to-jump. Client-only (snapshot-driven).",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web"
+    }
+  },
+  "license": "MIT"
+}
